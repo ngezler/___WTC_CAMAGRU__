@@ -1,0 +1,160 @@
+.footer {
+    text-align: center;
+    opacity: .8;
+    padding: 0.5%;
+    background-image: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+
+}
+
+.body {
+    background-image: repeating-radial-gradient(purple 05%, skyblue 10%, grey 15%, skyblue);   
+
+}
+
+.nav {
+
+    opacity: .8;
+    padding: 0.5%;
+    background-image: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+    position: absolute;
+    width: 100%;
+    top: 0%;
+
+}
+
+/* index css */
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    height: 5%;
+    width: 100%;
+    background-image: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+}
+
+.title {
+    position: absolute;
+    color: white;
+    border: none;
+    height: 100%;
+    font-size: 25px;
+    padding: 30px 0 30px 0;
+}
+
+.logo {
+    color: white;
+    border: none;
+    height: 100%;
+    font-size: 25px;
+    padding: 0 30px 0 30px;
+}
+
+.container {
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 10%;
+    height: 100%;
+    /* display: inline-block; */
+}
+
+.container-child {
+    display: none;
+    background-image: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+    min-width: 50px;
+}
+
+.container-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-child a:hover {
+    background-color: #3eb48994;
+}
+
+.container:hover .container-child {
+    display: block;
+}
+
+.button_top {
+    background-color: #402e2b36;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 30px 0 30px;
+}
+
+.identification:hover {
+    background-color: #402e2b3b;
+}
+
+
+.container_pictures {
+    height: 85%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    margin: 0 10px 10px 0;
+    width: 400px;
+    height: 300px;
+}
+
+.container_pagination {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination {
+    margin-bottom: 37px;
+    display: inline-block;
+}
+
+.pagination a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: grey;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#transparant {
+    visibility: hidden;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}

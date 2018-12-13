@@ -1,0 +1,205 @@
+body {
+    background-image: repeating-radial-gradient(purple 05%, skyblue 10%, grey 15%, skyblue);
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    height: 5%;
+    width: 100%;
+    background-color: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+}
+
+.title {
+    color: white;
+    /* left: 10%; */
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cam_holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #f1f1f1;
+    height: 70%;
+    width: 50%;
+}
+
+.cam_holder box{
+    align-items: center;
+    height: 0.5%;
+    width: 20%;
+}
+.form_holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #f1f1f1;
+    height: 40%;
+    width: 50%;
+}
+
+.rfi {
+    width: 40%;
+}
+
+.password_forgot {
+    width: 45%;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5%;
+    border: 1px solid #acadaf;
+    border-radius: 10px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));
+}
+
+.upd {
+    width: 40%;
+    height: 30px;
+    margin-bottom: 5%;
+    border: 1px solid #acadaf;
+    border-radius: 10px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));
+}
+.submit {
+    width: 20%;
+    height: 30px;
+    margin-bottom: 5%;
+    border: 1px solid #acadaf;
+    border-radius: 10px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));
+    font-size: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrong {
+    color: #bc0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.good {
+    color: #0f7705;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+    background-image: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+    color: white;
+    text-align: center;
+}
+
+.text_footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin: 10px 10% 0 0;
+}
+
+.login__form-link{
+    position: absolute;
+    top:10px;
+    right:10px;
+    color:#003569;
+}
+
+//gallery styling
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(143, 17, 226, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.photo {
+    height: auto;
+    width: 100%;
+}
+
+//hD STYLING
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color:darkorchid;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+//STILL ON HD STYLING

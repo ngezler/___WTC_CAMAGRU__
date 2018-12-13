@@ -1,0 +1,28 @@
+
+
+<html>
+    <head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Setup</S></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
+        <meta http-equiv="refresh" content="5; URL='../src/index.php'"/>
+	</head>
+	<body>
+    <?php
+            session_start();
+            include ("database.php");
+            try {
+            createInitialDatabase();
+            $conn = getDB();
+            createTableDatabase($conn);
+            }
+            catch (PDOException $e) {
+                echo 'Connection failed: ' . $e->getMessage();
+            }
+            echo "<h1>Camagru setup Done!! You will be redirected in 5 seconds to the main page :-)</h1>";
+            ?>
+	</body>
+</html>
+
